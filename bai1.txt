@@ -1,0 +1,18 @@
+Cap="Come to the"
+Iron="River"
+Hulk="Of my"
+Nat="Soulful"
+Scarlet="Sentiments"
+Carol="Meandering silently"
+Furi="Yearning for release"
+Hawkeye="Hasten"
+Thor="Earnestly"
+Steve="As my love flows by"
+Spider="Rushing through the flood-gates"
+Chris="To your Heart"
+Cap[0]+Iron[0]+Hulk[o]+Nat[0]+Scarlet[0]+Carol[0]+Furi[0]+Hawkeye[0]+Thor[0]+Steve[0]+Spider[0]+Chris[0]
+
+'CROSSMYHEART'
+
+
+
