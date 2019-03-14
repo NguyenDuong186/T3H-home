@@ -1,0 +1,17 @@
+numbers = range(1, 101)
+result = []
+for number in numbers:
+    if number % 3 == 0 and number % 5 == 0:
+        result.append("FizzBuzz")
+    if (number % 3 == 0):
+        result.append("Buzz")
+    if (number % 5 == 0):
+        result.append("Fizz")
+    else:
+        result.append(number)
+print(result)
+
+......
+[1, 2, 'Buzz', 3, 4, 'Fizz', 'Buzz', 6, 7, 8, 'Buzz', 9, 'Fizz', 11, 'Buzz', 12, 13, 14, 'FizzBuzz', 'Buzz', 'Fizz', 16, 17, 'Buzz', 18, 19, 'Fizz', 'Buzz', 21, 22, 23, 'Buzz', 24, 'Fizz', 26, 'Buzz', 27, 28, 29, 'FizzBuzz', 'Buzz',
+ 'Fizz', 31, 32, 'Buzz', 33, 34, 'Fizz', 'Buzz', 36, 37, 38, 'Buzz', 39, 'Fizz', 41, 'Buzz', 42, 43, 44, 'FizzBuzz', 'Buzz', 'Fizz', 46, 47, 'Buzz', 48, 49, 'Fizz', 'Buzz', 51, 52, 53, 'Buzz', 54, 'Fizz', 56, 'Buzz', 57, 58, 59, 'FizzBuzz', 'Buzz', 'Fizz', 61, 62, 'Buzz', 63, 64, 'Fizz', 'Buzz', 66, 67, 68, 'Buzz', 69, 'Fizz',
+ 71, 'Buzz', 72, 73, 74, 'FizzBuzz', 'Buzz', 'Fizz', 76, 77, 'Buzz', 78, 79, 'Fizz', 'Buzz', 81, 82, 83, 'Buzz', 84, 'Fizz', 86, 'Buzz', 87, 88, 89, 'FizzBuzz', 'Buzz', 'Fizz', 91, 92, 'Buzz', 93, 94, 'Fizz', 'Buzz', 96, 97, 98, 'Buzz', 99, 'Fizz']
